@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500;
+  background-color:hsl(210, 46%, 95%);
+  height: 100vh;
+  width: 100%;
+}
+
+/* ***************
+Colors
+*************** */
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.violet {
+  color: hsl(263, 55%, 52%);
+}
+
+.gray-blue {
+  color: hsl(217, 19%, 35%);
+}
+
+.dark-blue {
+  color: hsl(219, 29%, 14%);
+}
+
+.light-gray {
+  color: hsl(0, 0%, 81%);
+}
+
+.light-blue {
+  color: hsl(210, 46%, 95%);
+}
+
+/* ***************
+Testimonial Section
+*************** */
+.container {
+  margin: 0 auto;
+  width: 300px;
+  padding: 50px 0;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-template-rows: 1fr;
+}
+.violet-box,
+.gray-box,
+.white-box-1,
+.dark-blue-box,
+.white-box-2 {
+  border: none;
+  border-radius: 8px; 
+  padding: 30px 30px;
+}
+
+/* Profile Name */
+.profile-name {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.profile-name img {
+  border-radius: 50%;
+  height: 40px;
+}
+
+.name-title {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color:hsl(0, 0%, 100%);
+  margin-left: 20px;
+}
+
+.title {
+  color:hsla(0, 0%, 100%, 50%);
+}
+
+
+/* Testimonial */
+.testi-1 {
+  font-size: 2em;
+  color:hsl(210, 46%, 95%);
+  margin-bottom: 20px;
+}
+
+.testi-2 {
+  font-size: 1.2em;
+  color:hsla(0, 8%, 90%, 70%);
+}
+
+
+
+/* Violet Box */
+.violet-box {
+  background-color:hsl(263, 55%, 52%);
+}
+
+.violet-box img,
+.dark-blue-box img {
+  border: 3px solid hsl(263, 100%, 67%); 
+}
+
+/* Gray Box */
+.gray-box {
+  background-color:hsl(217, 19%, 35%);
+}
+
+/* White Box 1 and 2 */
+.white-box-1,
+.white-box-2 {
+  background-color:hsl(0, 0%, 100%)
+}
+
+.white-box-1 .name-title,
+.white-box-2 .name-title {
+  color:hsl(217, 19%, 35%);
+}
+
+.white-box-1 .name-title .title,
+.white-box-2 .name-title .title {
+  color:hsla(217, 19%, 35%, 50%);
+}
+
+.white-box-1 .testimonial .testi-1,
+.white-box-2 .testimonial .testi-1{
+  color:hsl(217, 19%, 35%);
+}
+
+.white-box-1 .testimonial .testi-2,
+.white-box-2 .testimonial .testi-2 {
+  color:hsla(219, 29%, 14%, 70%);
+}
+
+/* Dark Blue Box */
+.dark-blue-box {
+  background-color:hsl(219, 29%, 14%);
+}
