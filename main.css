@@ -145,3 +145,13 @@ Testimonial Section
 .dark-blue-box {
   background-color:hsl(219, 29%, 14%);
 }
+
+/* ***************
+Media Query: 
+Tablet
+*************** */
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
